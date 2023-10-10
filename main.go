@@ -1,5 +1,6 @@
 package main
 
+//
 import (
 	"log"
 
@@ -8,6 +9,7 @@ import (
 
 func main() {
 	log.Println("Beging app...")
+	// Start referencing the the package by typing the package name and then a period .
 	var myVar helpers.SomeType
 	myVar.TypeName = "Some Name"
 	myVar.TypeNum = 9
